@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<LinearLayout-->
+<!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:orientation="vertical"-->
+<!--&gt;-->
+
+<!--<com.liuwei1995.lwvlayout.views.AdViewPager-->
+<!--android:id="@+id/ad_vp"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="200dp"-->
+<!--&gt;-->
+
+<!--</com.liuwei1995.lwvlayout.views.AdViewPager>-->
+
+<!--<android.support.v7.widget.RecyclerView-->
+<!--android:id="@+id/main"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent">-->
+
+<!--</android.support.v7.widget.RecyclerView>-->
+
+
+<!--</LinearLayout>-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.liuwei1995.lwvlayout.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <com.liuwei1995.lwvlayout.views.AdViewPager
+            android:id="@+id/ad_vp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            >
+
+
+        </com.liuwei1995.lwvlayout.views.AdViewPager>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+    </LinearLayout>
+</ScrollView>
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+            <!--xmlns:tools="http://schemas.android.com/tools"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--tools:context="com.liuwei1995.lwvlayout.MainActivity">-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical"-->
+        <!--&gt;-->
+
+        <!--<com.liuwei1995.lwvlayout.views.AdViewPager-->
+            <!--android:id="@+id/ad_vp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="200dp"-->
+            <!--&gt;-->
+
+        <!--</com.liuwei1995.lwvlayout.views.AdViewPager>-->
+
+        <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:id="@+id/main"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+        <!--</android.support.v7.widget.RecyclerView>-->
+
+
+    <!--</LinearLayout>-->
+<!--</ScrollView>-->
